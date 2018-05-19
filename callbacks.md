@@ -20,7 +20,7 @@ In order to understand callbacks we need to first understand what __Higher Order
   
   
 ```
-Now, have a look to the code bellow. This is equivalent to the code above. We have just expressed it slightly different. Instead of declaring 'doMoreStuff' as we did before,  we are passing the exact same function as an anonymous function (an anonymous function it's just a function which doesn't have a name)
+Now, have a look at the code bellow. This is equivalent to the code above. We have just expressed it slightly different. Instead of declaring 'doMoreStuff' as we did before,  we are passing the exact same function as an anonymous function (an anonymous function it's just a function which doesn't have a name)
 
 ```JavaScript
   
