@@ -50,11 +50,11 @@ The following piece of code, once again does the same thing. But in this case, w
 Now, stop for a second and try to think about what we have done here. We have declared a __Higher order function__ 'doStuff' to which we have passed in another function as an argument, which we have called-__BACK__ from inside 'doStuff'... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;got it???
 
 "Wait a second", you may say. "What’s the point of doing all that work around to perform a task that we could just as well have run from inside 'doStuff'???" 
-You are right, in this example that just don't make sense, but that was just an example right? I just used it to explain what higher order functions are and what a callback is.
+You are right, in this example that just doesn't make sense, but that was just an example right? I just used it to explain what higher order functions are and what a callback is.
 
-Now let me show what Callbacks are useful for.
+Now let me show you what Callbacks are useful for.
 
-Lets imagine our old friend Damo is walking around Dublin, on a lovely rainy day, and he wants to smoke a cigarette. He searches in his pocket just to find out that he ran out of 'smokes'. Bad luck, but that won't keep him from enjoying a 'luvely' cigarette. He goes and starts to ask other people for a cigarette. Since it will take some time until someone gives him a cigarette, we can say that this is an asynchronous task.
+Let's imagine our old friend Damo is walking around Dublin, on a lovely rainy day, and he wants to smoke a cigarette. He searches in his pocket just to find out that he ran out of 'smokes'. Bad luck, but that won't keep him from enjoying a 'loovely' cigarette. He goes and starts to ask other people for a cigarette. Since it will take some time until someone gives him a cigarette, we can say that this is an asynchronous task.
 
 So, it doesn't take too long until Damo gets a cigarette. Now he can go and smoke it, just to find out that it wasn't exactly tobacco what they gave to him... 'Oh Jaysus'. 
 
