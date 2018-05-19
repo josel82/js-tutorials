@@ -1,4 +1,4 @@
-##Closures
+## Closures
 ---
 
 As defined by Mozilla, _a closure is the combination of a function and the lexical environment within which that function was declared_.  

@@ -1,4 +1,4 @@
-##Hoisting
+## Hoisting
 ---
 
 It is JavaScript's default behaviour of moving al variable declarations to the top of the current scope (the top of the script or the top of a function).
