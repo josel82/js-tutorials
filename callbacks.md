@@ -1,5 +1,4 @@
 ## Callbacks
----
 
 Callbacks are functions which other functions call after they are done with some asynchronous task. Got that? not quite, right? Let's see if I can make this easy for you.
 
