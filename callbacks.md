@@ -134,5 +134,5 @@ So what the callback is doing here, it is allowing us to run code when this asyn
   
 ```
 
-For more information got to [this page](https://www.w3schools.com/jquery/jquery_callback.asp)
+For more information go to [this page](https://www.w3schools.com/jquery/jquery_callback.asp)
 or you can watch [this video](https://www.youtube.com/watch?v=BMUiFMZr7vk)
