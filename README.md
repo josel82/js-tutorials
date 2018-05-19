@@ -11,5 +11,7 @@ I have prepared a series of tutorials in which I try to explain in the most simp
 
 - [Promises](promises.md)
 
+- [Async/Await](async_await.md)
+
 
 If you have any question or suggestions, feel free to leave a comment.
