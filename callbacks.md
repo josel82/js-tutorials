@@ -35,7 +35,7 @@ Now, have a look at the code bellow. This is equivalent to the code above. We ha
   
   
 ```
-The following peace of code, once again does the same thing. But in this case, we are just using ES6 syntax, because... because we are awesome.
+The following piece of code, once again does the same thing. But in this case, we are just using ES6 syntax, because... because we are awesome.
 
 ```JavaScript
   
