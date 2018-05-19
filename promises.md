@@ -5,7 +5,7 @@ A __Promise__ is an object that _represents the eventual completion (or failure)
 In simpler words, let's say that Promises are a better way for dealing with asynchronous code. Before Promises, we only had callbacks, and they were fine until applications got bigger and more complex and developers started to come across problems like this:
 
 Inline-style: 
-![callback hell](/Downloads/callback_hell.jpeg "Callback Hell")
+![callback hell](img/callback_hell.jpeg "Callback Hell")
 
 Behold the __Callback Hell__!
 

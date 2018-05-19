@@ -9,5 +9,7 @@ I have prepared a series of tutorials in which I try to explain in the most simp
 
 - [Callbacks](callbacks.md)
 
+- [Promises](promises.md)
+
 
 If you have any question or suggestions, feel free to leave a comment.
