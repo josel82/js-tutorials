@@ -1,7 +1,6 @@
 ## Hoisting
----
 
-It is JavaScript's default behaviour of moving al variable declarations to the top of the current scope (the top of the script or the top of a function).
+It is JavaScript's default behaviour of moving all variable declarations to the top of the current scope (the top of the script or the top of a function).
 
 Example:
 ```JavaScript
@@ -20,7 +19,7 @@ Example:
   }
   
 ```
-In the case above the JavaScript interpreter moves the declaration of the variable "x" to the top of the scope, which in this case is the function "printSomething", by default. 
+In the case above, the JavaScript interpreter moves the declaration of the variable "x" to the top of the scope, which in this case is the function "printSomething", by default. (If you don't understand how scope works in JavaScript, you can find some info about it in my tutorial on Closures or in this [page](https://www.w3schools.com/js/js_scope.asp))
 
 Now, let’s imagine we didn't declare the variable "x" within the function. In this case the JavaScript interpreter will go up one level in scope and check if the declaration is there. It will do so until either finds the declaration or it reaches the global scope, where it will declare the variable in case it hasn't been declared. 
 
@@ -36,7 +35,7 @@ Now, let’s imagine we didn't declare the variable "x" within the function. In 
   }
 ```
 
-##var, let, const
+## var, let, const
 __var__ is the key word we used to use for declaring variables in ECMAScript5. __var__ has function scope, meaning that its scope is determined by the function it has been declared in. See the example below.
 
 ```JavaScript
