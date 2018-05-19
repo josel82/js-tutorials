@@ -95,13 +95,15 @@ Again, here is another way to express the same case. In this case, instead of de
   
 
   getSmokes(function(type){
+  
     console.log('Smoking '+type);
+    
   }); // Outputs: Smoking not exactly tobacco    (after 3 seconds)
   
   
 ```
 
-###Why do we need callbacks???
+### Why do we need callbacks???
 JavaScript is a non-blocking I/O programming language. This means that instead of waiting until a task is done in order to do the next task, the JavaScript engine puts those asynchronous tasks aside and continues with the other tasks. Once the asynchronous task is done, the JavaScript engine puts it back to the 'execution line'.
 
 Going back to the previous example, our friend Damo will be signing while he is getting smokes. "But How come? if we are printing after we have called the getSmoke function!" Well, that is because 'getSmoke' has some asynchronous code which the JavaScript engine is putting aside until is completed, then continues on printing 'Singing in the rain...' on the console, and it is not until 3 seconds have passed that this task is done that we get 'Smoking not exactly tobacco' printed on the console. 
@@ -132,3 +134,5 @@ So what the callback is doing here, it is allowing us to run code when this asyn
   
 ```
 
+For more information got to [this page](https://www.w3schools.com/jquery/jquery_callback.asp)
+or you can watch [this video](https://www.youtube.com/watch?v=BMUiFMZr7vk)
