@@ -108,3 +108,5 @@ The main difference between __let__ and __const__ is that the value of a variabl
       
 ```
 
+For more information visit [Mozilla Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+or watch [this video](https://www.youtube.com/watch?v=sjyJBL5fkp8)
